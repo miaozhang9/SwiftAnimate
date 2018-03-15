@@ -1,0 +1,15 @@
+PODS:
+  - MGJRouter (0.9.3)
+  - OTBase (0.1.0):
+    - MGJRouter (~> 0.9.1)
+
+DEPENDENCIES:
+  - OTBase
+
+SPEC CHECKSUMS:
+  MGJRouter: f65821e2aeffc8f9e84b254c8f1c0dd80f048aa9
+  OTBase: 689eb6ccbccc0a6ca86e22a89dacdc5f28b9e1b7
+
+PODFILE CHECKSUM: f5f783759b8819e43c3a50d8613d66361e68e608
+
+COCOAPODS: 1.4.0

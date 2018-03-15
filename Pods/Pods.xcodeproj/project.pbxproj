@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05C78216243880778BB2135D776F64E2 /* MGJRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CA9DF93B2D72AA06101EFAC4DB2A5E /* MGJRouter.framework */; };
+		0BA0319DB7D7339E4CF5EF9081B48C2D /* MGJRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 626E8450E1C3AC6C76D933DD2C1E3E2C /* MGJRouter-dummy.m */; };
+		2198EF0F556D53554DEB3BA5DECF9FE0 /* OTBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D8104FD80A97B5117E806907E53349 /* OTBase-dummy.m */; };
+		23106674F3BD246F363546CF637DCCA3 /* Pods-SwiftAnimate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04049DC2FD815FC7DBE761FBFC97A82E /* Pods-SwiftAnimate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ADBFE9CB1D3EBFD1D5A302D7B5EE0D0 /* UIColor+QH.m in Sources */ = {isa = PBXBuildFile; fileRef = 50165C7AD7D584D339E22002B38A8B7C /* UIColor+QH.m */; };
+		2E1E366D8E0633A358194D8644BA3835 /* OTBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F11E15509514ACF4EDC975EAE70A2B4B /* OTBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72EECA87FDC8704FCD8D58C8D35618BA /* MGJRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F579289389F919403C094A95AF7DDFA6 /* MGJRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77FD8309C17F4BE0EC5A70CD51EF8CF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1576394B5D69F16531C7C2FABEBD2375 /* Foundation.framework */; };
+		8145924A8F43709F9FF2F85396F71334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1576394B5D69F16531C7C2FABEBD2375 /* Foundation.framework */; };
+		8D904884D690B16012E78CFE35A63E7E /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE61F1B9AB333F39B1026B4D77C099E /* MGJRouter.m */; };
+		903D1DF5217254F8C52C90679BA2C0B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1576394B5D69F16531C7C2FABEBD2375 /* Foundation.framework */; };
+		A019CAF44C4B381280C5D21EE8DA18C3 /* MGJRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1560A6C6FD7B47F05C3C284B0DC15254 /* MGJRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAB3612513433EB412DEA09D1DC54FBD /* Pods-SwiftAnimate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 394BD68A9EAA24246A2E4C6E6104526E /* Pods-SwiftAnimate-dummy.m */; };
+		CD7F420A0A2E2A250226CF8EE8310B35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C033A2501EFAB0286AF58F3366E599 /* UIKit.framework */; };
+		DF8F6290ACA4C861C1D3F9BBF3E52199 /* UIColor+QH.h in Headers */ = {isa = PBXBuildFile; fileRef = 47464F13E3B594F2EFDE20D487CCB930 /* UIColor+QH.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07F78165DEF16F1A56F4B708737AF7B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 794D77ED7C0D12E6EF7D867313D7B5BA;
+			remoteInfo = OTBase;
+		};
+		11499E109406FFC651EA9382E912069D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A578B1461229AA6ED3A10AF5DBC2F23;
+			remoteInfo = MGJRouter;
+		};
+		9D32F2BD60EA96FB138705824AA1D2CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A578B1461229AA6ED3A10AF5DBC2F23;
+			remoteInfo = MGJRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E3C0D303C4AA5DDEA610CEC41AD5A6 /* Pods-SwiftAnimate-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAnimate-acknowledgements.plist"; sourceTree = "<group>"; };
+		04049DC2FD815FC7DBE761FBFC97A82E /* Pods-SwiftAnimate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftAnimate-umbrella.h"; sourceTree = "<group>"; };
+		119C659FA8347FE465B55BD6200D3321 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128AFDEA4EFDC784D49C6D1B76868521 /* Pods-SwiftAnimate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftAnimate.modulemap"; sourceTree = "<group>"; };
+		13D6403CEA84C44463481BD100260B50 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1560A6C6FD7B47F05C3C284B0DC15254 /* MGJRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGJRouter.h; path = MGJRouter/MGJRouter.h; sourceTree = "<group>"; };
+		1576394B5D69F16531C7C2FABEBD2375 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1F3F36BD64CDA3892017B8420921F1C5 /* Pods-SwiftAnimate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAnimate.release.xcconfig"; sourceTree = "<group>"; };
+		24F45CB4C335042D4347506461F0EC9E /* MGJRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGJRouter.xcconfig; sourceTree = "<group>"; };
+		32E4AA9B142891D0C2BE6EB8156D2769 /* MGJRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGJRouter-prefix.pch"; sourceTree = "<group>"; };
+		394BD68A9EAA24246A2E4C6E6104526E /* Pods-SwiftAnimate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftAnimate-dummy.m"; sourceTree = "<group>"; };
+		47464F13E3B594F2EFDE20D487CCB930 /* UIColor+QH.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+QH.h"; path = "OTBase/Classes/UIColor+QH.h"; sourceTree = "<group>"; };
+		4D36F66399144E381EEF4DC7761D615B /* OTBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTBase.framework; path = OTBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE61F1B9AB333F39B1026B4D77C099E /* MGJRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGJRouter.m; path = MGJRouter/MGJRouter.m; sourceTree = "<group>"; };
+		4F70B942E9C5B6985886650D0362DD7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50165C7AD7D584D339E22002B38A8B7C /* UIColor+QH.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+QH.m"; path = "OTBase/Classes/UIColor+QH.m"; sourceTree = "<group>"; };
+		626E8450E1C3AC6C76D933DD2C1E3E2C /* MGJRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGJRouter-dummy.m"; sourceTree = "<group>"; };
+		69C033A2501EFAB0286AF58F3366E599 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		91F0BDF4C7DAB37D8100959CB2D31119 /* MGJRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGJRouter.framework; path = MGJRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A06BE5365698192A32890FFCE3772FE /* OTBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTBase.xcconfig; sourceTree = "<group>"; };
+		9D950D50FDEE85D884BC1381E92EE20F /* MGJRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MGJRouter.modulemap; sourceTree = "<group>"; };
+		A8A8F5B2126797BB6BE9496D3B5D4ECB /* Pods-SwiftAnimate-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftAnimate-resources.sh"; sourceTree = "<group>"; };
+		B4B828FA79EE7EDE3CEFF17A5D7E7DA0 /* Pods-SwiftAnimate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAnimate.debug.xcconfig"; sourceTree = "<group>"; };
+		B4D8104FD80A97B5117E806907E53349 /* OTBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTBase-dummy.m"; sourceTree = "<group>"; };
+		BF2A889A34A901938E1301AB00AA8958 /* Pods-SwiftAnimate-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftAnimate-frameworks.sh"; sourceTree = "<group>"; };
+		C612016F981AC6C9F75C72E38FC22E56 /* OTBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTBase-prefix.pch"; sourceTree = "<group>"; };
+		D3BB653B25D01CC8907F318BBC16ED0A /* Pods_SwiftAnimate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftAnimate.framework; path = "Pods-SwiftAnimate.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F27887486F301D2A1BD905B5D01C1B /* OTBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OTBase.modulemap; sourceTree = "<group>"; };
+		ECDDD6A2D402C0A68D6C230D92714E76 /* Pods-SwiftAnimate-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftAnimate-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F11E15509514ACF4EDC975EAE70A2B4B /* OTBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTBase-umbrella.h"; sourceTree = "<group>"; };
+		F579289389F919403C094A95AF7DDFA6 /* MGJRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGJRouter-umbrella.h"; sourceTree = "<group>"; };
+		F7CA9DF93B2D72AA06101EFAC4DB2A5E /* MGJRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGJRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AAB696C20261FA7BAD890C4B73E120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8145924A8F43709F9FF2F85396F71334 /* Foundation.framework in Frameworks */,
+				05C78216243880778BB2135D776F64E2 /* MGJRouter.framework in Frameworks */,
+				CD7F420A0A2E2A250226CF8EE8310B35 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B27B7DB0C131569FA75763A0B0C96B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FD8309C17F4BE0EC5A70CD51EF8CF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84FF8A280A30252BDAD8FC45E8B69C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903D1DF5217254F8C52C90679BA2C0B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		101F9C34D786925A76E0B0D2AB20514B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1576394B5D69F16531C7C2FABEBD2375 /* Foundation.framework */,
+				69C033A2501EFAB0286AF58F3366E599 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		32E5B4AB62E269F3F862B6FC6EEFE91B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				119C659FA8347FE465B55BD6200D3321 /* Info.plist */,
+				D6F27887486F301D2A1BD905B5D01C1B /* OTBase.modulemap */,
+				9A06BE5365698192A32890FFCE3772FE /* OTBase.xcconfig */,
+				B4D8104FD80A97B5117E806907E53349 /* OTBase-dummy.m */,
+				C612016F981AC6C9F75C72E38FC22E56 /* OTBase-prefix.pch */,
+				F11E15509514ACF4EDC975EAE70A2B4B /* OTBase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OTBase";
+			sourceTree = "<group>";
+		};
+		34409875A51878BC5FB9011C006C1FA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD4405E697170A748DEBE3FCAD4A35FF /* MGJRouter */,
+				7CE16599CF0CB1024FA944EE9CBAA946 /* OTBase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6384B8A2FF3928C5C417D29D599FBA47 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2370BDD40901738ED0CF91DA8C7DF28 /* Pods-SwiftAnimate */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7CE16599CF0CB1024FA944EE9CBAA946 /* OTBase */ = {
+			isa = PBXGroup;
+			children = (
+				47464F13E3B594F2EFDE20D487CCB930 /* UIColor+QH.h */,
+				50165C7AD7D584D339E22002B38A8B7C /* UIColor+QH.m */,
+				32E5B4AB62E269F3F862B6FC6EEFE91B /* Support Files */,
+			);
+			name = OTBase;
+			path = OTBase;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A1304B4A863487BD15DD6E74820931EB /* Frameworks */,
+				34409875A51878BC5FB9011C006C1FA9 /* Pods */,
+				F93FE0A9B26D9C333936A89FE2E1F11D /* Products */,
+				6384B8A2FF3928C5C417D29D599FBA47 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9C979E2A603E411E70FC9A8BE4F7CAAC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F70B942E9C5B6985886650D0362DD7C /* Info.plist */,
+				9D950D50FDEE85D884BC1381E92EE20F /* MGJRouter.modulemap */,
+				24F45CB4C335042D4347506461F0EC9E /* MGJRouter.xcconfig */,
+				626E8450E1C3AC6C76D933DD2C1E3E2C /* MGJRouter-dummy.m */,
+				32E4AA9B142891D0C2BE6EB8156D2769 /* MGJRouter-prefix.pch */,
+				F579289389F919403C094A95AF7DDFA6 /* MGJRouter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MGJRouter";
+			sourceTree = "<group>";
+		};
+		A1304B4A863487BD15DD6E74820931EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7CA9DF93B2D72AA06101EFAC4DB2A5E /* MGJRouter.framework */,
+				101F9C34D786925A76E0B0D2AB20514B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2370BDD40901738ED0CF91DA8C7DF28 /* Pods-SwiftAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				13D6403CEA84C44463481BD100260B50 /* Info.plist */,
+				128AFDEA4EFDC784D49C6D1B76868521 /* Pods-SwiftAnimate.modulemap */,
+				ECDDD6A2D402C0A68D6C230D92714E76 /* Pods-SwiftAnimate-acknowledgements.markdown */,
+				00E3C0D303C4AA5DDEA610CEC41AD5A6 /* Pods-SwiftAnimate-acknowledgements.plist */,
+				394BD68A9EAA24246A2E4C6E6104526E /* Pods-SwiftAnimate-dummy.m */,
+				BF2A889A34A901938E1301AB00AA8958 /* Pods-SwiftAnimate-frameworks.sh */,
+				A8A8F5B2126797BB6BE9496D3B5D4ECB /* Pods-SwiftAnimate-resources.sh */,
+				04049DC2FD815FC7DBE761FBFC97A82E /* Pods-SwiftAnimate-umbrella.h */,
+				B4B828FA79EE7EDE3CEFF17A5D7E7DA0 /* Pods-SwiftAnimate.debug.xcconfig */,
+				1F3F36BD64CDA3892017B8420921F1C5 /* Pods-SwiftAnimate.release.xcconfig */,
+			);
+			name = "Pods-SwiftAnimate";
+			path = "Target Support Files/Pods-SwiftAnimate";
+			sourceTree = "<group>";
+		};
+		DD4405E697170A748DEBE3FCAD4A35FF /* MGJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				1560A6C6FD7B47F05C3C284B0DC15254 /* MGJRouter.h */,
+				4EE61F1B9AB333F39B1026B4D77C099E /* MGJRouter.m */,
+				9C979E2A603E411E70FC9A8BE4F7CAAC /* Support Files */,
+			);
+			name = MGJRouter;
+			path = MGJRouter;
+			sourceTree = "<group>";
+		};
+		F93FE0A9B26D9C333936A89FE2E1F11D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91F0BDF4C7DAB37D8100959CB2D31119 /* MGJRouter.framework */,
+				4D36F66399144E381EEF4DC7761D615B /* OTBase.framework */,
+				D3BB653B25D01CC8907F318BBC16ED0A /* Pods_SwiftAnimate.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04714190F24919BB79CF990799BF39E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E1E366D8E0633A358194D8644BA3835 /* OTBase-umbrella.h in Headers */,
+				DF8F6290ACA4C861C1D3F9BBF3E52199 /* UIColor+QH.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FEEB0422E1878D3B184B832F26EBE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23106674F3BD246F363546CF637DCCA3 /* Pods-SwiftAnimate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC31CC89DD84F5178B7070D4092DE90C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72EECA87FDC8704FCD8D58C8D35618BA /* MGJRouter-umbrella.h in Headers */,
+				A019CAF44C4B381280C5D21EE8DA18C3 /* MGJRouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		794D77ED7C0D12E6EF7D867313D7B5BA /* OTBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB2DBAF9B549F3DB08874772862CB9D /* Build configuration list for PBXNativeTarget "OTBase" */;
+			buildPhases = (
+				00AAC7BCD6EF96C277A50A5A45920C5C /* Sources */,
+				04AAB696C20261FA7BAD890C4B73E120 /* Frameworks */,
+				04714190F24919BB79CF990799BF39E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F9F3B5664CDF852F704BF689F032912 /* PBXTargetDependency */,
+			);
+			name = OTBase;
+			productName = OTBase;
+			productReference = 4D36F66399144E381EEF4DC7761D615B /* OTBase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A578B1461229AA6ED3A10AF5DBC2F23 /* MGJRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01FB71DA3E9300DAAB7CFFF8F26F113E /* Build configuration list for PBXNativeTarget "MGJRouter" */;
+			buildPhases = (
+				E493B4A8172C6A7D4E4778F2373ECFCB /* Sources */,
+				F84FF8A280A30252BDAD8FC45E8B69C0 /* Frameworks */,
+				FC31CC89DD84F5178B7070D4092DE90C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGJRouter;
+			productName = MGJRouter;
+			productReference = 91F0BDF4C7DAB37D8100959CB2D31119 /* MGJRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BCAE07A8FAE367D72F6B70194C0B219B /* Pods-SwiftAnimate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E138F18065B626E154C2B5E880EFFB8 /* Build configuration list for PBXNativeTarget "Pods-SwiftAnimate" */;
+			buildPhases = (
+				7BE0C7EDCE6D1FBA9C232CCDBFA49E13 /* Sources */,
+				F1B27B7DB0C131569FA75763A0B0C96B /* Frameworks */,
+				C5FEEB0422E1878D3B184B832F26EBE0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48606E5DBA21B0B0B4C91810162871E5 /* PBXTargetDependency */,
+				27F8DF7F3DB5225377A473176E5A48D0 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftAnimate";
+			productName = "Pods-SwiftAnimate";
+			productReference = D3BB653B25D01CC8907F318BBC16ED0A /* Pods_SwiftAnimate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F93FE0A9B26D9C333936A89FE2E1F11D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A578B1461229AA6ED3A10AF5DBC2F23 /* MGJRouter */,
+				794D77ED7C0D12E6EF7D867313D7B5BA /* OTBase */,
+				BCAE07A8FAE367D72F6B70194C0B219B /* Pods-SwiftAnimate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00AAC7BCD6EF96C277A50A5A45920C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2198EF0F556D53554DEB3BA5DECF9FE0 /* OTBase-dummy.m in Sources */,
+				2ADBFE9CB1D3EBFD1D5A302D7B5EE0D0 /* UIColor+QH.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE0C7EDCE6D1FBA9C232CCDBFA49E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB3612513433EB412DEA09D1DC54FBD /* Pods-SwiftAnimate-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E493B4A8172C6A7D4E4778F2373ECFCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA0319DB7D7339E4CF5EF9081B48C2D /* MGJRouter-dummy.m in Sources */,
+				8D904884D690B16012E78CFE35A63E7E /* MGJRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F9F3B5664CDF852F704BF689F032912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGJRouter;
+			target = 8A578B1461229AA6ED3A10AF5DBC2F23 /* MGJRouter */;
+			targetProxy = 11499E109406FFC651EA9382E912069D /* PBXContainerItemProxy */;
+		};
+		27F8DF7F3DB5225377A473176E5A48D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTBase;
+			target = 794D77ED7C0D12E6EF7D867313D7B5BA /* OTBase */;
+			targetProxy = 07F78165DEF16F1A56F4B708737AF7B5 /* PBXContainerItemProxy */;
+		};
+		48606E5DBA21B0B0B4C91810162871E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGJRouter;
+			target = 8A578B1461229AA6ED3A10AF5DBC2F23 /* MGJRouter */;
+			targetProxy = 9D32F2BD60EA96FB138705824AA1D2CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0275D91503A09244346A65248B53B5EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A06BE5365698192A32890FFCE3772FE /* OTBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTBase/OTBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTBase/OTBase.modulemap";
+				PRODUCT_NAME = OTBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		17A9CBDAF2732D027624BDC0FEE02C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3F36BD64CDA3892017B8420921F1C5 /* Pods-SwiftAnimate.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAnimate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAnimate/Pods-SwiftAnimate.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftAnimate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		380E85E9D63023B0176CB61AC8A496FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F45CB4C335042D4347506461F0EC9E /* MGJRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGJRouter/MGJRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGJRouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGJRouter/MGJRouter.modulemap";
+				PRODUCT_NAME = MGJRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7EC7F89FFE4DF44BAD6FC10C83280F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4B828FA79EE7EDE3CEFF17A5D7E7DA0 /* Pods-SwiftAnimate.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAnimate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAnimate/Pods-SwiftAnimate.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftAnimate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		95C9A71E5295C8FC773161345EDC3CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F45CB4C335042D4347506461F0EC9E /* MGJRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGJRouter/MGJRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGJRouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGJRouter/MGJRouter.modulemap";
+				PRODUCT_NAME = MGJRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA1C954F9C197EEEE30A102539355031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A06BE5365698192A32890FFCE3772FE /* OTBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTBase/OTBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTBase/OTBase.modulemap";
+				PRODUCT_NAME = OTBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01FB71DA3E9300DAAB7CFFF8F26F113E /* Build configuration list for PBXNativeTarget "MGJRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C9A71E5295C8FC773161345EDC3CA2 /* Debug */,
+				380E85E9D63023B0176CB61AC8A496FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E138F18065B626E154C2B5E880EFFB8 /* Build configuration list for PBXNativeTarget "Pods-SwiftAnimate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC7F89FFE4DF44BAD6FC10C83280F12 /* Debug */,
+				17A9CBDAF2732D027624BDC0FEE02C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB2DBAF9B549F3DB08874772862CB9D /* Build configuration list for PBXNativeTarget "OTBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0275D91503A09244346A65248B53B5EA /* Debug */,
+				EA1C954F9C197EEEE30A102539355031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
