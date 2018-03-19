@@ -91,7 +91,7 @@ class AnimateViewController: UIViewController {
         
         
         
-
+//Spring动画
 //        let springAnimation = CASpringAnimation(keyPath: "position.y")
 //        springAnimation.damping = 8         //阻尼系数 0 ~ 10
 //        springAnimation.mass    = 1        //弹簧末端的质量 大于 0 质量越大弹性就越大
@@ -151,10 +151,6 @@ class AnimateViewController: UIViewController {
   
         }
         
-        
-        
-       
-     
         // Do any additional setup after loading the view.
     }
 
