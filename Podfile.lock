@@ -2,14 +2,23 @@ PODS:
   - MGJRouter (0.9.3)
   - OTBase (0.1.0):
     - MGJRouter (~> 0.9.1)
+  - SnapKit (3.2.0)
+  - Then (2.3.0)
+  - ZMBase (0.1.0):
+    - SnapKit (~> 3.2.0)
+    - Then (~> 2.3.0)
 
 DEPENDENCIES:
   - OTBase
+  - ZMBase
 
 SPEC CHECKSUMS:
   MGJRouter: f65821e2aeffc8f9e84b254c8f1c0dd80f048aa9
   OTBase: 689eb6ccbccc0a6ca86e22a89dacdc5f28b9e1b7
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  Then: ee21c97b85ff6062b9b0080c9abb1eea46743345
+  ZMBase: b525e7e6261179fe94e67d759fdad7028f74aa63
 
-PODFILE CHECKSUM: f5f783759b8819e43c3a50d8613d66361e68e608
+PODFILE CHECKSUM: 881505ea0045c2adb9d1e5013e9e77dff067b1c2
 
 COCOAPODS: 1.4.0
