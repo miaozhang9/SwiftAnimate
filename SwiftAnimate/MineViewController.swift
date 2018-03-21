@@ -130,13 +130,14 @@ class MineViewController: UIViewController {
             i == 0 ? imageView.image = image : ()
             images.append(image)
         }
-        
+        //需要先赋值图片占位，否则的话动画走完会不显示
+        imageView.image = images.last
         imageView.animationImages = images
         imageView.animationDuration = 2
         imageView.animationRepeatCount = 1
         imageView.startAnimating()
         
-        imageView.image = images.last
+       
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
