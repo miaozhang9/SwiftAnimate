@@ -123,9 +123,7 @@ extension ModalAnimation: CAAnimationDelegate {
         maskLayer.fillColor = UIColor.darkGray.cgColor
         toView.layer.mask = maskLayer
         let path1 = UIBezierPath(ovalIn:CGRect(x: fromView.frame.size.width/2, y: fromView.frame.size.height/2, width: 20, height: 20)).cgPath
-        
         let path2 = UIBezierPath(arcCenter: containerView.center, radius: fromView.bounds.height , startAngle: 0, endAngle: CGFloat(M_PI * 2.0), clockwise: true).cgPath
-        
         maskLayer.path = path2
         let animation = addAnimationTo(fromValue: path1, toValue: path2, transitionContext: transitionContext)
         maskLayer.add(animation, forKey: "presentAnimation")
@@ -136,9 +134,7 @@ extension ModalAnimation: CAAnimationDelegate {
         animation.delegate = self
         animation.isRemovedOnCompletion = false
         animation.fillMode = kCAFillModeForwards
-        
         animation.setValue(transitionContext, forKey: "transitionContext")
-        
         return animation
     }
     
