@@ -71,9 +71,6 @@ class MineViewController: UIViewController {
     @objc func clickEventC() {
         dismiss(animated: true, completion: nil)
 //        showGifViewWithLocalName(name: "仓鼠动画01.gif")
-        
-//        imageView.showGIFImageWithLocalName(name: "仓鼠动画01")
-//
 
     }
     

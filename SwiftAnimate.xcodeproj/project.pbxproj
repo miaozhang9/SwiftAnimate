@@ -14,7 +14,6 @@
 		9B5CB2B12010428900AC1747 /* DismissAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CB2B02010428900AC1747 /* DismissAnimation.swift */; };
 		9B5CB2B3201042F000AC1747 /* ModalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CB2B2201042F000AC1747 /* ModalAnimation.swift */; };
 		9B5CB2B72010975400AC1747 /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CB2B62010975400AC1747 /* GifView.swift */; };
-		9B5CB2B82010993500AC1747 /* hamster_once.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9B5CB2B52010950000AC1747 /* hamster_once.gif */; };
 		9B5CB2BB2010ABB200AC1747 /* 仓鼠动画01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9B5CB2BA2010ABAA00AC1747 /* 仓鼠动画01.gif */; };
 		9B5CB2BC2010ABB200AC1747 /* 仓鼠动画02.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9B5CB2B92010ABAA00AC1747 /* 仓鼠动画02.gif */; };
 		9B5CB2E02012132A00AC1747 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CB2C2201212E700AC1747 /* DesignableImageView.swift */; };
@@ -65,7 +64,6 @@
 		9B5CB2AD200F59D200AC1747 /* Animate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate.swift; sourceTree = "<group>"; };
 		9B5CB2B02010428900AC1747 /* DismissAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissAnimation.swift; sourceTree = "<group>"; };
 		9B5CB2B2201042F000AC1747 /* ModalAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalAnimation.swift; sourceTree = "<group>"; };
-		9B5CB2B52010950000AC1747 /* hamster_once.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hamster_once.gif; sourceTree = "<group>"; };
 		9B5CB2B62010975400AC1747 /* GifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifView.swift; sourceTree = "<group>"; };
 		9B5CB2B92010ABAA00AC1747 /* 仓鼠动画02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "仓鼠动画02.gif"; sourceTree = "<group>"; };
 		9B5CB2BA2010ABAA00AC1747 /* 仓鼠动画01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "仓鼠动画01.gif"; sourceTree = "<group>"; };
@@ -209,7 +207,6 @@
 			children = (
 				9B5CB2BA2010ABAA00AC1747 /* 仓鼠动画01.gif */,
 				9B5CB2B92010ABAA00AC1747 /* 仓鼠动画02.gif */,
-				9B5CB2B52010950000AC1747 /* hamster_once.gif */,
 				9B5CB2C1201212E700AC1747 /* Spring */,
 				9B5CB2AB200F59D200AC1747 /* Tools */,
 				9BEE178E200DE59B006854BD /* AppDelegate.swift */,
@@ -294,7 +291,6 @@
 			files = (
 				9B5CB2BB2010ABB200AC1747 /* 仓鼠动画01.gif in Resources */,
 				9B5CB2BC2010ABB200AC1747 /* 仓鼠动画02.gif in Resources */,
-				9B5CB2B82010993500AC1747 /* hamster_once.gif in Resources */,
 				9BEE1799200DE59B006854BD /* LaunchScreen.storyboard in Resources */,
 				9BEE1796200DE59B006854BD /* Assets.xcassets in Resources */,
 				9BEE1794200DE59B006854BD /* Main.storyboard in Resources */,
