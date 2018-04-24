@@ -160,84 +160,12 @@ class ViewController: UIViewController {
 
         }
 
-//        if flag == 0 {//判断是不是第一次切换
-////            UIView.animate(withDuration: 0.75, delay: 0, options: UIViewAnimationOptions.curveLinear, animations: {
-////                self.buttonB.frame = CGRect.init(x: 85, y: 185, width: 80, height: 80)
-////                self.buttonA.frame = CGRect.init(x: 75, y: 150, width: 100, height: 100)
-////            }, completion: { (_) in
-////                  self.view.bringSubview(toFront: self.buttonA)
-////            })
-//
-//            UIView.animate(withDuration: 0.75, animations: {
-//                self.buttonB.frame = CGRect.init(x: 85, y: 185, width: 80, height: 80)
-//                self.buttonA.frame = CGRect.init(x: 75, y: 150, width: 100, height: 100)
-//                self.buttonA.layer.shadowOpacity = 0.8
-//                self.buttonB.layer.shadowOpacity = 0
-////                self.buttonB.alpha = 0.2;
-//
-//
-////                self.view.bringSubview(toFront: self.buttonA)
-////                 self.buttonB.center = CGPoint.init(x: self.buttonB.center.x + 100, y: self.buttonB.center.y)
-//
-//            }, completion: { (_) in
-//                self.view.bringSubview(toFront: self.buttonA)
-//                UIView.animate(withDuration: 0.5, animations: {
-////                   self.buttonB.alpha = 1;
-////                     self.buttonB.center = CGPoint.init(x: self.buttonB.center.x - 100, y: self.buttonB.center.y)
-////                      self.buttonA.frame = CGRect.init(x: 75, y: 150, width: 100, height: 100)
-////
-//                }, completion: { (_) in
-//
-//                })
-//            })
-//
-//            flag = 1//改变标志的值
-//        } else {
-//
-//            UIView.animate(withDuration: 0.75, animations: {
-//                self.buttonB.frame = CGRect.init(x: 75, y: 150, width: 100, height: 100)
-//                self.buttonA.frame = CGRect.init(x: 85, y: 185, width: 80, height: 80)
-//
-//                self.buttonA.layer.shadowOpacity = 0
-//                self.buttonB.layer.shadowOpacity = 0.8
-//                UIView.animate(withDuration: 0, delay: 1, options: .curveLinear, animations: {
-//                      self.view.bringSubview(toFront: self.buttonB)
-//                }, completion: { (_) in
-//
-//                })
-//
-////                self.view.bringSubview(toFront: self.buttonB)
-////                 self.buttonB.center = CGPoint.init(x: self.buttonB.center.x + 100, y: self.buttonB.center.y)
-//            }, completion: { (_) in
-//
-//                UIView.animate(withDuration: 0.75, animations: {
-////                     self.buttonB.center = CGPoint.init(x: self.buttonB.center.x - 100, y: self.buttonB.center.y)
-//                }, completion: { (_) in
-//
-//                })
-//            })
-//
-//            flag = 0//恢复标志的值
-//        }
     }
 
     
     @objc func changeOrder2() {
         if flag == 0 {//判断是不是第一次切换
-            //            UIView.animate(withDuration: 0.75, delay: 0, options: UIViewAnimationOptions.curveLinear, animations: {
-            //                self.buttonB.frame = CGRect.init(x: 85, y: 185, width: 80, height: 80)
-            //                self.buttonA.frame = CGRect.init(x: 75, y: 150, width: 100, height: 100)
-            //            }, completion: { (_) in
-            //                  self.view.bringSubview(toFront: self.buttonA)
-            //            })
-            
-            
             UIView.animate(withDuration: 0.5, animations: {
-               
-                //                self.buttonA.frame = CGRect.init(x: 75, y: 150, width: 100, height: 100)
-                
-                //                self.view.bringSubview(toFront: self.buttonA)
-                
               
                 self.buttonA.center = CGPoint.init(x: self.buttonA.center.x, y: self.buttonA.center.y - 100)
                 self.buttonA.layer.shadowOpacity = 0.8
@@ -262,12 +190,7 @@ class ViewController: UIViewController {
         } else {
             
             UIView.animate(withDuration: 0.5, animations: {
-                
-                //                self.buttonA.frame = CGRect.init(x: 75, y: 150, width: 100, height: 100)
-                
-                //                self.view.bringSubview(toFront: self.buttonA)
-                
-                
+        
                 self.buttonB.center = CGPoint.init(x: self.buttonB.center.x, y: self.buttonB.center.y - 100)
                 self.buttonB.layer.shadowOpacity = 0.8
                 self.buttonA.layer.shadowOpacity = 0
@@ -286,26 +209,7 @@ class ViewController: UIViewController {
                     
                 })
             })
-//            UIView.animate(withDuration: 0.75, animations: {
-////                self.buttonB.frame = CGRect.init(x: 75, y: 150, width: 100, height: 100)
-//                self.buttonA.frame = CGRect.init(x: 85, y: 185, width: 80, height: 80)
-//
-//                self.buttonA.center = CGPoint.init(x: self.buttonA.center.x + 100, y: self.buttonA.center.y)
-//                //                self.view.bringSubview(toFront: self.buttonB)
-//                //                 self.buttonB.center = CGPoint.init(x: self.buttonB.center.x + 100, y: self.buttonB.center.y)
-//            }, completion: { (_) in
-//                self.view.bringSubview(toFront: self.buttonB)
-//                self.buttonA.layer.shadowOpacity = 0
-//                self.buttonB.layer.shadowOpacity = 0.8
-//                UIView.animate(withDuration: 0.75, animations: {
-//                     self.buttonA.center = CGPoint.init(x: self.buttonA.center.x - 100, y: self.buttonA.center.y)
-//                    self.buttonB.frame = CGRect.init(x: 75, y: 150, width: 100, height: 100)
-//
-//                }, completion: { (_) in
-//
-//                })
-//            })
-            
+
             flag = 0//恢复标志的值
         }
     }
